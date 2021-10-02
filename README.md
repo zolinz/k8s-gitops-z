@@ -15,5 +15,5 @@ flux bootstrap github \
 flux bootstrap github \
 --owner=zolinz \
 --repository=k8s-gitops-z \
---path=k8s/namespaces/overlay/raspbernetes \
+--path=k8s/clusters/raspbernetes \
 --personal
