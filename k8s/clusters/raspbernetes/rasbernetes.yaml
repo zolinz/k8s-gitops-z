@@ -4,9 +4,10 @@ metadata:
   name: raspbernetes
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 10m0s
   sourceRef:
     kind: GitRepository
     name: flux-system
   path: ./k8s/namespaces/overlay/raspbernetes
   prune: true
+  validation: client
