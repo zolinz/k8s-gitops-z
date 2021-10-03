@@ -9,3 +9,5 @@ spec:
     kind: GitRepository
     name: flux-system
   path: ./k8s/namespaces/overlay/raspbernetes
+  prune: true
+  validation: client
