@@ -11,3 +11,4 @@ spec:
       port: 7777
       targetPort: 80
       name: http-web
+      nodePort: 30007
