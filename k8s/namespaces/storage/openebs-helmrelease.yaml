@@ -12,5 +12,5 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: openebs
-        namespace: openebs
+        namespace: flux-system
       interval: 10m
