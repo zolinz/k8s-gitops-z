@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
   name: openebs-chart
-  namespace: flux-system
+  namespace: openebs
 spec:
   interval: 10m
   url: https://openebs.github.io/charts
