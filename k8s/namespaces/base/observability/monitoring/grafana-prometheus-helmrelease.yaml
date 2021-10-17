@@ -14,3 +14,10 @@ spec:
         name: prometheus-community-charts
         namespace: monitoring
       interval: 10m
+  values:
+    prometheus:
+      service:
+        type: NodePort
+    grafana:
+      service:
+        type: NodePort
